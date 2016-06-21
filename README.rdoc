@@ -5,7 +5,7 @@ To run:
 1. Make sure you have Docker compose installed (https://docs.docker.com/compose/install).
 2. Start your docker instance, and run with your GitHub API key:
 
-    docker-compose run -e GITHUB_API_KEY=df0f649ad2761c2fabfa6a3cabd15c4eab8c5b03 --service-ports web
+    docker-compose run -e GITHUB_API_KEY=<github_api_key> --service-ports web
 
 
 3. Your app should now be running on port 3000 on your Docker daemon. If you’re using Docker Machine, then docker-machine ip MACHINE_VM returns the Docker host IP address.
