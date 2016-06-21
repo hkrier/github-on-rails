@@ -2,7 +2,7 @@
 
 To run:
 
-1. Make sure you have [Docker compose link](https://docs.docker.com/compose/install/) installed.
+1. Make sure you have [Docker compose](https://docs.docker.com/compose/install/) installed.
 2. Start your docker instance, and run with your GitHub API key:
 
     docker-compose run -e GITHUB_API_KEY=df0f649ad2761c2fabfa6a3cabd15c4eab8c5b03 --service-ports web
