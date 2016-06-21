@@ -1,0 +1,12 @@
+<%= form_tag("/find", method: "get") do %>
+    <%= label_tag(:user, "User") %>
+    <%= text_field_tag(:user) %>
+
+    <%= label_tag(:repo, "Repository") %>
+    <%= text_field_tag(:repo) %>
+
+    <%= label_tag(:pr_id, "Pull Request ID") %>
+    <%= text_field_tag(:pr_id) %>
+
+    <%= submit_tag("Find") %>
+<% end %>
