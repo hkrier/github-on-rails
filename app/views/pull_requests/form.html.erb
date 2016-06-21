@@ -1,3 +1,7 @@
+<div class="error">
+    <%= @error %>
+</div>
+
 <%= form_tag("/find", method: "get") do %>
     <%= label_tag(:user, "User") %>
     <%= text_field_tag(:user) %>

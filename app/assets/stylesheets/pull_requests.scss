@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-  width: 300px;
+  width: 315px;
   margin: 0 auto;
 }
 
@@ -58,4 +58,10 @@ input {
 
 .params {
   font-weight: 600;
+}
+
+.error {
+  color: #ffd701;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
